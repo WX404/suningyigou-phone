@@ -1,0 +1,81 @@
+.top{
+    width: 100%;
+    height: .88rem;    
+    border-bottom: .02rem solid #ccc;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top a{
+    font-size: .28rem;
+    color: #ccc;
+}
+.top .iconfont{
+    font-size: .4rem;
+    padding-left: .08rem;
+}
+.top .search{
+    display: inline-block;
+    width: 6.44rem;
+    height: .6rem;
+    line-height: .6rem;
+    border: .02rem solid #ccc;
+    border-radius: .1rem;
+}
+.con{
+    position: relative;
+}
+.con .side{
+    font-size: .28rem;
+    color: #666;
+    width: 1.74rem;
+    height: .96rem;
+    border-bottom: .02rem solid #ccc;
+    text-align: center;
+    padding-top: .3rem;
+    box-sizing: border-box;
+}
+.con .right{
+    width: 5.4rem;
+    height: 10.4rem;
+    background-color: #fff;
+    position: absolute;
+    left: 1.74rem;
+    top: 0;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-top: .3rem;
+}
+.con .right a{
+    color: #000;
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.7rem;
+    text-align: center;
+    position: relative;
+}
+.con .right img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.tuijian:hover .tuijian-right{
+    z-index: 100;
+}
+.shouji:hover .shouji-right{
+    z-index: 100;
+}
+.jiadian:hover .jiadian-right{
+    z-index: 100;
+}
+.diannao:hover .diannao-right{
+    z-index: 100;
+}
+.chuwei:hover .chuwei-right{
+    z-index: 100;
+}
+.shipin:hover .shipin-right{
+    z-index: 100;
+}

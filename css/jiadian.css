@@ -1,0 +1,191 @@
+.box{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: .9rem;
+    font-size: .32rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+header a{
+    color: #333;
+}
+.icon-right{
+    padding: 0 .3rem;
+}
+.guanzhu{
+    display: inline-block;
+    width: 1.16rem;
+    height: .48rem;
+    background-color: #F2F2F2;
+    border-radius: .24rem;
+    font-size: .24rem;
+    text-align: center;
+    line-height: .48rem;
+    margin-left: .3rem;
+}
+.icon-shenglve{
+    position: absolute;
+    right: .3rem; 
+    top: .3rem;   
+    font-size: .4rem;
+}
+header ul{
+    width: 2.52rem;
+    height: 5rem;
+    background-color: #484F55;
+    border-radius: .06rem;
+    position: absolute;
+    right: 0;
+    bottom: -5rem;
+    display: none;
+}
+header li{
+    list-style: none;
+    width: 2.52rem;
+    height: 1rem;
+    line-height: 1rem;
+    border-bottom: .02rem solid #585E62;
+    padding-left: .24rem;
+    box-sizing: border-box;
+}
+header li:last-child{
+    border: none;
+}
+header .right .iconfont{
+    font-size: .4rem;
+}
+header .right:hover ul{
+    display: block;
+}
+.con1{
+    width: 100%;
+    height: 3.6rem;
+    background-color: #35A8AE;
+    border-bottom-right-radius:2rem .8rem;
+    border-bottom-left-radius:2rem .8rem;
+    padding: .24rem .15rem 0;
+    margin-bottom: .6rem;
+    box-sizing: border-box;
+    position: relative;
+}
+.search{
+    width: 7.2rem;
+    height: .64rem;
+    line-height: .64rem;
+    background-color: #fff;
+    border-radius: .32rem;
+    padding-left: .4rem;
+    box-sizing: border-box;
+}
+.search a{
+    font-size: .24rem;
+    color: #ccc;
+}
+.lunbotu{
+    width: 7.02rem;
+    height: 2.87rem;
+    position: absolute;
+    top: 1.1rem;
+    left: .24rem;
+    overflow: hidden; 
+}
+.lunbotu img{
+    width: 7.02rem;
+    height: 2.87rem;
+}
+.lunbotu ul{
+    width: 21.06rem;
+    height: 2.87rem; 
+    animation: movie2 8s infinite;     
+}
+.lunbotu li{
+    float: left;
+    width: 7.02rem;
+    height: 2.87rem;
+}
+@keyframes movie2{
+    0%,25%{
+        left: 0;
+    }
+    40%,65%{
+        left: -351rem;
+    }
+    80%,100%{
+        left: -702rem;
+    }
+}
+.con2{
+    width: 100%;
+    height: 3.2rem;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.con2 a{
+    display: inline-block;
+    width: 1.16rem;
+    height: 1.26rem;
+    font-size: .24rem;
+    color: #333;
+    text-align: center;
+    padding: 0 .15rem;
+}
+.con2 img{
+    width: .8rem;
+    height: .8rem;
+}
+.con3 img{
+    width: 100%;
+}
+.con4 p{
+    font-size: .32rem;
+    font-weight: bolder;
+    color: #333;
+    padding: .2rem .24rem;
+}
+.con4 img{
+    width: 7.02rem;
+    height: 3.16rem;
+    padding: .1rem .24rem;
+}
+.guding .icon-gouwuche{
+    position: fixed;
+    right: .2rem;
+    bottom: 3rem;
+    font-size: .6rem;
+    width: .8rem;
+    height: .8rem;
+    line-height: .8rem;
+    text-align: center;
+    background-color: #ccc;
+    border-radius: .4rem;
+
+}
+footer{
+    width: 100%;
+    height: 1rem;
+    color: #8B8B8B;  
+    font-size: .24rem;  
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: .2rem 0;    
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer a{
+    color: #636262;
+}
+footer .iconfont{
+    font-size: .4rem;
+}
+footer a:first-child{
+    color: #FFAA00;
+}

@@ -1,0 +1,177 @@
+.box{
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: .9rem;
+    font-size: .28rem;
+    color: #000;      
+    box-sizing: border-box;
+    padding: 0 .24rem;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .iconfont{
+    font-size: .5rem;
+    color: #ccc;
+}
+.toutu img:first-child{    
+    height: 3.4rem;
+}
+.toutu .zuozhe img{
+    width: .7rem;
+    height: .7rem;
+}
+.toutu a{
+    font-size: .24rem;
+    color: #000;
+}
+.zuozhe{
+    width: 6.8rem;
+    height: 1.2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin: 0 .3rem;
+}
+.guanzhu{
+    width: 1.16rem;
+    height: .56rem;
+    text-align: center;
+    line-height: .56rem;
+    background-color: #FF6600;
+    position: absolute;
+    right: 0;      
+}
+.guanzhu a{
+    color: #fff;
+}
+.con{
+    margin: 0 .2rem;
+}
+.con .biaoti{
+    font-size: .38rem;
+    /* 字体设置不起作用 */
+    font-family: "SimHei";
+    color: #333;
+    font-weight: bolder;
+    padding: .3rem .1rem;
+}
+.qianyan{
+    font-size: .28rem;   
+    color: #666; 
+    padding-left: .3rem;
+    margin-bottom: .3rem;
+    border-left: .04rem solid #ccc;
+}
+.chanpin img{
+    width: 7.1rem;
+    height: 7.1rem;
+}
+.chanpin{
+    font-size: .36rem;
+    color: #333;
+    font-weight: bolder;
+    padding: .3rem 0;
+    position: relative;
+}
+.jiage{
+    width: 100%;
+    height: .32rem;
+    display: flex;
+    justify-content: space-between;     
+    padding-bottom: .3rem;   
+}
+.jiage a{
+    font-size: .28rem;
+    color: #FF6600;
+}
+.jiage a:nth-child(2){
+    width: 1.2rem;
+    height: .4rem;
+    border: .02rem solid #FF6600;
+}
+.jieshao{
+    font-size: .36rem;
+    color: #333;
+}
+.chanpin .manjian a{
+    font-size: .24rem;
+    color: #fff;
+    background-color: #FF6600;
+    padding: .02rem;
+}
+.chanpin .manjian{
+    position: absolute;
+    left: .3rem;
+    bottom: .4rem;
+
+}
+.bottom p:first-child{
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    font-size: .28rem;
+    color: #999; 
+    background-color: #F2F2F2;
+    margin-top: .3rem;
+    padding-left: .24rem;
+}
+.bottom .tupian{
+    padding: .3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottom a{
+    font-size: .24rem;
+    color: #FF6600;
+    position: relative;
+}
+.bottom img{
+    width: 2.2rem;
+    height: 2.2rem;    
+}
+.bottom a p{
+    position: absolute;
+    bottom: .18rem;
+    right: .3rem;
+}
+.pinglun .pinglun-1{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+    background-color: #F2F2F2;
+    position: relative;    
+}
+.pinglun-1 p{
+    background-color: #F2F2F2;    
+}
+.zhongxian{
+    width: 100%;
+    height: .02rem;    
+    border-top: .02rem solid #F5F5F5;
+    position: absolute;
+    top: .48rem;
+    left: 0;
+}
+.pinglun2{    
+    padding: .1rem .3rem;
+}
+input{
+    width: 5rem;
+    height: .7rem;
+    outline: none;
+    border: .02rem solid #DCDADA;
+    border-radius: .06rem;
+}
+.pinglun2 .iconfont{
+    font-size: .48rem;
+    color: #999;
+    padding: 0 .1rem;
+}

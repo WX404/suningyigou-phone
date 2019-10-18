@@ -1,0 +1,232 @@
+header{    
+    position: relative;
+    width: 100%;
+    height: 3.68rem;    
+}
+header .top{
+    width: 100%;
+    height: .88rem;  
+    background-color: #FFBD00;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header .left{
+    width: .44rem;
+    height: .44rem;
+    display: inline-block;    
+    text-align: center;
+    padding-left: .1rem;
+    font-size: .36rem;
+    color: #fff;
+}
+header .mid{
+    width: 5.6rem;
+    height: .6rem;
+    line-height: .6rem;
+    font-size: .24rem;
+    color: #7D7C7A;
+    background-color: #fff;
+    border-radius: .3rem;   
+    box-sizing: border-box; 
+}
+header .mid span:nth-child(1){
+    padding-left: .24rem;
+}
+header .right{
+    font-size: .28rem;
+    color: #fff;
+    padding-right: .1rem;
+}
+/* 轮播图 */
+.lunbotu{
+    width: 100%;
+    height: 3.68rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    animation: movie-top 12s infinite;    
+}
+.lunbotu ul{
+    width: 37.5rem;
+    height: 3.68rem;    
+}
+.lunbotu li{
+    list-style: none;
+    float: left;    
+}
+.lunbotu img{
+    width: 7.5rem;
+    height: 3.68rem;    
+}
+@keyframes movie-top{
+    0%,25%{
+        left: 0;
+    }
+    25%,45%{
+        left: -7.5rem;
+    }
+    45%,65%{
+        left: -15rem;
+    }
+    65%,85%{
+        left: -22.5rem;
+    }
+    85%,100%{
+        left: -30rem;
+    }
+}
+/* 第一部分内容 */
+.con1 .fenlei{
+    width: 100%;
+    height: 3.24rem;
+    background-image: url(https://image3.suning.cn/uimg/cms/img/157112633279191686.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;      
+    box-sizing: border-box;
+    padding: .2rem 0;
+}
+.fenlei  li{
+    width: 1.5rem;    
+    height: 1.2rem;
+    font-size: .24rem;    
+    text-align: center;
+    list-style: none;
+}
+.fenlei li img{
+    width: .84rem;
+    height: .84rem;
+}
+.fenlei p{
+    color: #fff;      
+}
+.pintu{
+    width: 100%;
+    height: 2rem;
+}
+.pintu li{
+    float: left;
+}
+.pintu img{
+    width: 2.5rem;
+    height: 2rem;
+}
+/* 第二部分内容 */
+.con2{
+    width: 100%;
+    height: 1.12rem;
+    padding: .1rem .2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+/* 左边的苏宁头条logo */
+.con2 .toutiao{
+    width: 1rem;
+    height: 1rem;  
+    padding-top: .4rem;
+    padding-left: .16rem;
+}
+.con2 .toutiao img{
+    width: .66rem;
+    height: .66rem;
+}
+.con2 .biaoti{
+    width: 6rem;
+    height: 1rem;       
+}
+.con2 .biaoti li{
+    padding: .06rem 0;
+}
+.con2 .biaoti a{    
+    font-size: .24rem;
+    color: #000;    
+}
+.con2 .biaoti a span:first-child{
+    padding: .02rem .04rem;
+    color: #fff;
+    background-color: #FF7B0E;
+}
+.con2 .biaoti a span:nth-child(2){
+    display: inline-block;
+    width: 3.6rem;
+    height: .32rem;
+    white-space:nowrap;
+	overflow:hidden;	
+	text-overflow:ellipsis;
+}
+.con2 .tupian img{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    right: .9rem;
+    bottom: .2rem;
+}
+.con2 .biaoti{
+    width: 5.94rem;
+    height: 1rem;
+    overflow: hidden;
+}
+.con2 .biaoti ul{
+    width: 5.94rem;
+    height: 6rem;
+    animation: movie-con2 10s infinite;
+}
+/* 第三部分内容 */
+.con3{
+    width: 7.02rem;
+    height: 4.1rem;
+    margin-bottom: 1.2rem;
+}
+.con3-1 img{
+    width: 7.02rem;
+    height: 1.6rem;
+    border-bottom: .02rem solid #ccc;
+}
+.con3-2{
+    display: flex;
+    justify-content: space-around;
+}
+.con3-2 img{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.con3-2 a{
+    font-size: .32rem;   
+    color: #FF7B0E; 
+}
+/* 底部导航 */
+footer{
+    width: 100%;
+    height: 1rem;
+    color: #8B8B8B;  
+    font-size: .24rem;  
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: .2rem 0;    
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+footer a{
+    color: #636262;
+}
+footer .iconfont{
+    font-size: .4rem;
+}
+footer a:first-child{
+    color: #FFAA00;
+}
